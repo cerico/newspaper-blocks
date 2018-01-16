@@ -63,7 +63,8 @@ const localData = {
 ### See example app
 
 ```
-cd example
+git@github.com:cerico/newspaper-blocks.git
+cd newspaper-blocks/example
 npm install
 npm run dev
 ```
