@@ -1,0 +1,26 @@
+.main{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #444444;
+  line-height: 1.6em;
+  background-color: #f4efde;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.itemWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px){
+
+  .itemWrapper{
+    margin:none 
+  }
+}

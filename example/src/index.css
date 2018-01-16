@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box
+}
+*:after,
+*.before {
+  box-sizing: border-box
+}
+
+body, html, article {
+  box-sizing: border-box;
+  background-color:rgb(244, 239, 222)
+  
+}
+
+a, a:visited {
+  text-decoration: none;
+  color:#549fb8
+}
+
+img {
+  height: 240px;
+}
+
