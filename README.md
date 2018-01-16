@@ -1,5 +1,7 @@
 # Swirl Layout
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cerico/newspaper-blocks.svg)](https://greenkeeper.io/)
+
 ## TLDR / What is it?
 
 Styled strip and text blocks
