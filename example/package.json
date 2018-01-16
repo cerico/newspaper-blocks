@@ -69,7 +69,7 @@
     "dev": "webpack-dev-server --config webpack/dev.config.js",
     "build": "webpack --config webpack/prod.config.js && npm run copy",
     "copy": "cp -r src/index.html dist && cp -r public dist",
-    "start": "node server.js",
+    "start": "set NODE_ENV=dev && node server.js",
     "deploy": "npm run build && ./bin/deploy.sh",
     "create": "./bin/create.sh $1",
     "lint": "prettier  --write '**/*.{js,jsx}'",

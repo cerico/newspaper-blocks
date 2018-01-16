@@ -1,6 +1,12 @@
 const AWS_URL = `https://s3.eu-west-2.amazonaws.com/io1937/json/sample.json`
 const host = window.location.host
-const API_URL = `https://${host}/public/sample.json`
+let proto
+if (host.includes('localhost')){
+  proto = 'http'
+} else {
+  proto = 'https'
+}
+const API_URL = `${proto}://${host}/public/sample.json`
 
 export const getProducts = () => {
   const endpoint = `${API_URL}`
