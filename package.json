@@ -1,6 +1,6 @@
 {
   "name": "newspaper-blocks",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Put a description here",
   "main": "build/index.js",
   "peerDependencies": {
