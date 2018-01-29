@@ -8,7 +8,6 @@ import './fonts.css'
 const Block = ({data}) => {
 
     return(
-      2 == 2  ? 
         <section style={{'backgroundColor':data.colours.bg,'color':data.colours.fg}} className={styles.main}>
           <Header {...data} />
           <div className={styles.itemWrapper}>      
@@ -17,7 +16,6 @@ const Block = ({data}) => {
             }
           </div>  
       </section> 
-        : null
     )
   }
 
